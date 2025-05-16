@@ -8,8 +8,8 @@ This project deforms the mesh of a 3D dragonly model based on the mesh of an Orn
 
 Sample mesh deformations are provided below:
 
-<img width="450" alt="image" src="https://github.com/user-attachments/assets/b379bb12-1d69-4539-b172-16be18ba77c9" />
-<img width="450" alt="image" src="https://github.com/user-attachments/assets/c9f837e2-aa25-47d2-b600-a56cd0871923" />
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/b379bb12-1d69-4539-b172-16be18ba77c9" />
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/c9f837e2-aa25-47d2-b600-a56cd0871923" />
 <p align="center">
   <img width="245" alt="image" src="https://github.com/user-attachments/assets/6504a96f-59c6-40bb-b941-ed85357acce9" />
 </p>
