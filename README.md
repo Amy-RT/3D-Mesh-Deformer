@@ -1,10 +1,6 @@
-<p align="center">
-  <img width="1000" alt="image" src="https://github.com/user-attachments/assets/1be7217e-0b19-4b26-9f63-f1e08d2ae5cd" />
-</p>
-
 ## PyTorch3D Mesh Deformation Project:
-
-This project deforms the mesh of a 3D dragonly model based on the mesh of an Ornithopter using a differentiable rasterizer. Vertices and vertex colors are initialized as learnable parameters and are updated using torch optimizers (experimented with SGD and ADAM so far)
+Taking inspiration from the signature "Ornithopter" featured in the Dune series, I am applying skillsets gained from the Educative course 3D Machine Learning with PyTorch3D ; 
+this project deforms the mesh of a 3D dragonly model based on the mesh of an Ornithopter using a differentiable rasterizer. Vertices and vertex colors are initialized as learnable parameters and are updated using torch optimizers (experimented with SGD and ADAM so far)
 
 Sample mesh deformations are provided below:
 
@@ -16,7 +12,7 @@ Sample mesh deformations are provided below:
 
 The source mesh (dragonfly) consists of 26,809 vertices and the target mesh (Ornithopter) consists of 1,206,181 vertices. To make the two meshes more compatible I implemented vertex upsampling using the PyTorch3D SubdivideMeshes Class and vertex downsampling using the trimesh simplify_quadric_decimation function.
 
-The 3D models were sourced from BlenderKit: <br />
+The start point 3D models were sourced from BlenderKit: <br />
 Artist credits: <br />
 Marinko Tambur: https://www.blenderkit.com/asset-gallery-detail/22b280a9-e03a-423d-a114-8a41d9869033/  <br />
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/bf1a849a-e7de-4385-a559-105ab48a776e" /> <br />
@@ -39,7 +35,9 @@ The deformed mesh can be exported as a .obj file (using the function save_mesh_a
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/33ec261e-e3cb-4a05-825a-096dc33822e0" /> <br />
 ^ the deformed mesh successfully loaded into blender <br />
 
-(The header image for this README are a collection of Ornithopter vertices rendered using PyTorch3D)
+I am fascinated by the still images that I am able to capture during the training process - below is iterative image from this process, blended with a dystopian background:
+<img width="809" alt="image" src="https://github.com/user-attachments/assets/ec4f37fd-a1f9-426e-8b58-8e4253703dea" />
+
 
 
 
