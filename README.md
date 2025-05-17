@@ -35,7 +35,7 @@ The deformed mesh can be exported as a .obj file (using the function save_mesh_a
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/33ec261e-e3cb-4a05-825a-096dc33822e0" /> <br />
 ^ the deformed mesh successfully loaded into blender <br />
 
-I am fascinated by the still images that I am able to capture during the training process - below is iterative image from this process, blended with a dystopian background:
+I am fascinated by the meshes that I am able to capture during the training process - below is an iteration from this process, blended with a dystopian background:
 <img width="809" alt="image" src="https://github.com/user-attachments/assets/ec4f37fd-a1f9-426e-8b58-8e4253703dea" />
 
 
